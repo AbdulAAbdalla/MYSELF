@@ -1,0 +1,57 @@
+h1 {
+    background-color:rebeccapurple;
+    padding: 20px;
+    text-align: center;color: white;
+
+}
+ 
+ #introduction{
+    background-color: skyblue;
+    margin: 20px;
+   
+}
+/*My skills in bordered list*/
+.bordered-list{
+    list-style-type: none;
+    padding: 10px; /*applying padding*/
+    margin: 0px;
+}
+.bordered-list li {
+    border: 2px solid ;
+    padding: 10px; /*applying padding*/
+    margin:20px;
+}
+.contact-section{
+    background-color:sienna;
+    padding: 20px;
+}
+    .contact-details {
+      margin-top: 20px;
+}
+.contact-details p {
+    margin: 10px 0;
+  }
+  .social-media-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  .social-media-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact-section {
+        padding: 10px;
+    }
+    .contact-details p {
+        font-size: 14px;
+      }
+    
+      .social-media-links li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  
+    
